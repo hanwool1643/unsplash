@@ -8,3 +8,8 @@ export const Screen = styled.div`
   left: 0;
   background: rgba(0,0,0, ${({ alpha }) => alpha || 0.5});
 `;
+
+export const ContentContainer = styled.div`
+  max-width: 1000px;
+  margin: 0 auto;
+`;
