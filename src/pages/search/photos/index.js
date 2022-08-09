@@ -18,5 +18,5 @@ export default function Photos() {
 }
 
 const Container = styled.div`
-  margin-top: 50px;
+  
 `;
