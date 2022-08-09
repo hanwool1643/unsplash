@@ -33,3 +33,21 @@ export const IconUser = () => (
     <path d="M30.67 22.67v4h-5.34v-4a6.21 6.21 0 00-3.1-5.16c3.68.49 8.44 2.25 8.44 5.16zM12 16a5.34 5.34 0 10-5.33-5.33A5.33 5.33 0 0012 16zm8 0a5.34 5.34 0 000-10.67 5.72 5.72 0 00-1.77.32 8 8 0 010 10A5.44 5.44 0 0020 16zm-8 1.33c-3.56 0-10.67 1.79-10.67 5.34v4h21.34v-4c0-3.55-7.11-5.34-10.67-5.34z" />
   </svg>
 );
+
+export const ColorFilter = () => (
+  <svg width="32" height="32" className="PTf2D" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+    <path d="M0,24.89v3.55H10.67V24.89ZM0,3.56V7.11H17.78V3.56ZM17.78,32V28.44H32V24.89H17.78V21.33H14.22V32ZM7.11,10.67v3.55H0v3.56H7.11v3.55h3.56V10.67ZM32,17.78V14.22H14.22v3.56ZM21.33,10.67h3.56V7.11H32V3.56H24.89V0H21.33Z" />
+  </svg>
+);
+
+export const IconChevronRight = () => (
+  <svg width="24" height="24" className="DG_Wq" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+    <path d="M11.3333 7.3333l2-2L24 16 13.3333 26.6666l-2-2L20 16l-8.6667-8.6667z" />
+  </svg>
+);
+
+export const IconChevronLeft = () => (
+  <svg width="24" height="24" className="DG_Wq" viewBox="0 0 32 32" version="1.1" aria-hidden="false">
+    <path d="M20.6667 24.6666l-2 2L8 16 18.6667 5.3333l2 2L12 16l8.6667 8.6666z" />
+  </svg>
+);

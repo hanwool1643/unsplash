@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { usePhotos } from '../hooks/usePhotos';
 import MasonryList from '../../../shared/list/MasonryList';
 import InfiniteScroll from '../../../shared/infiniteScroll/InfiniteScroll';
+import { ContentContainer } from '../../../shared/layout/Layout.Styled';
 
 // let value = 10
 
@@ -22,20 +23,21 @@ export default function PhotoList() {
 
   return (
     <Container>
-      <InfiniteScroll
-        onNext={handleNext}
-        length={data.length}
-        isLoading={isLoading}
-        loader={<p>Loading</p>}
-      >
-        <MasonryList columnCount={3} data={data} />
-      </InfiniteScroll>
+      <ContentContainer>
+        <InfiniteScroll
+          onNext={handleNext}
+          length={data.length}
+          isLoading={isLoading}
+          loader={<p>Loading</p>}
+        >
+          <MasonryList columnCount={3} data={data} />
+        </InfiniteScroll>
+      </ContentContainer>
     </Container>
   );
 }
 
 const Container = styled.div`
-  max-width: 1000px;
-  margin: 50px auto 0 auto;
+  margin-top: 50px;
   
 `;
